@@ -1,3 +1,5 @@
+# dtw
+dynamic time wrapping in time series data mining
 #DTW : dynamic time wrapping .
 initial project with Browsersync - Webpack + Babel by
 https://github.com/Browsersync/recipes/tree/master/recipes/webpack.babel
