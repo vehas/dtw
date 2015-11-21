@@ -1,3 +1,6 @@
 body{
   background-color: #fff;
 }
+.eq{
+  min-width: 280px;
+}

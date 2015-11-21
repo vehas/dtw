@@ -2,12 +2,42 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type='text/css' href='/css/style.css'>
+    <link rel="stylesheet" type="text/css" href="./semantic/dist/semantic.min.css">
+    <script src="./jquery-2.1.4.min.js"></script>
+    <script src="./semantic/dist/semantic.min.js"></script>
+    <link rel="stylesheet" type='text/css' href='./css/style.css'>
     <title>Browsersync, Webpack + Babel</title>
 </head>
 
 <body>
-  <span> DTW <span>
+  <span> DTW </span>
+  <div class="control ui vertical grid ">
+    <div class="eq four wide column"> pick equation
+      <div id="eqCanvas">  </div>
+
+    </div>
+    <div class="database six wide column">
+      <span>data 1 : </span><span id="d1"></span>
+      <br>
+      <span>data 2 : </span><span id="d2"></span>
+      <div class="ui teal labeled icon button">
+        calculation
+        <i class="add icon"></i>
+      </div>
+    </div>
+  </div>
+  <div class="ui horizontal divider">
+    result
+  </div>
+  <div class="output ui vertical">
+    <div>accuracy  rate :</div>
+    <svg>
+        <line style="stroke:rgb(255,0,0);stroke-width:2" x1="68" y1="53" x2="68" y2="53"/>
+        <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+    </svg>
+  </div>
+
+
   <script src="dist/bundle.js"></script>
 </body>
 </html>

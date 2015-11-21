@@ -8,7 +8,9 @@
   "scripts": {
     "start": "node app"
   },
-  "dependencies": {},
+  "dependencies": {
+    "semantic-ui": "^2.1.6"
+  },
   "devDependencies": {
     "babel-core": "^6.1.2",
     "babel-loader": "^6.1.0",
